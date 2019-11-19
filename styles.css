@@ -61,6 +61,23 @@ main {
   width: 5%;
 }
 
+.section-account-summary {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-account-summary div {
+  margin-top: 5%;
+  background: #fff;
+  width: 30%;
+  padding-left: 2%;
+  font-size: .8em;
+}
+
+.section-div-numeric-value {
+  font-size: 1.5em;
+}
+
 
 /* RECENT TRANSACTIONS */
 .section-recent-transactions {
