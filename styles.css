@@ -1,0 +1,29 @@
+html {
+
+}
+
+/* NAVIGATION AREA */
+nav {
+  border: 2px solid red;
+  height: 98vh;
+  width: 10%;
+}
+
+.nav-image-elephant {
+  height: auto;
+  width: 50%;
+  padding-left: 25%;
+  padding-top: 10%;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+.nav-ul-icons {
+  height: auto;
+  padding-top: 175%;
+  width: 30%;
+}
+
+/* MAIN DISPLAY AREA */
