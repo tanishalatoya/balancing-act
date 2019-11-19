@@ -8,7 +8,6 @@ body {
 
 /* NAVIGATION AREA */
 nav {
-  /* border: 2px solid red; */
   grid-area: nav;
 }
 
@@ -32,7 +31,6 @@ nav ul li {
 /* MAIN DISPLAY AREA */
 main {
   background:  #F5F5F5;
-  /* border: 10px solid purple; */
   grid-area: main;
 }
 .section-main-container {
@@ -46,6 +44,23 @@ main {
   border: 5px solid orange;
   width: 45%
 }
+
+.section-div-user-welcome {
+  background: linear-gradient(to right, #8ED1DC, #E3F4F6);
+  display: flex;
+  height: 3%;
+  padding: 2% 0 0 5%;
+  font-size: 1.5em;
+  justify-content: space-between;
+}
+
+.section-div-user-welcome button {
+  border: 0;
+  background: #E3F4F6;
+  height: 5%;
+  width: 5%;
+}
+
 
 /* RECENT TRANSACTIONS */
 .section-recent-transactions {
