@@ -30,9 +30,24 @@ nav ul li {
 }
 
 /* MAIN DISPLAY AREA */
-
 main {
   background:  #F5F5F5;
   /* border: 10px solid purple; */
   grid-area: main;
+}
+.section-main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* USER ACCOUNT INFORMATION */
+.section-user-account-info,
+.section-recent-transactions {
+  border: 5px solid orange;
+  width: 45%
+}
+
+/* RECENT TRANSACTIONS */
+.section-recent-transactions {
+  border: 5px solid teal;
 }
