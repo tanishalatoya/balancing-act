@@ -9,15 +9,15 @@ body {
 
 /* NAVIGATION AREA */
 nav {
-  height: 100vh;
   grid-area: nav;
+  height: 100vh;
 }
 
 .nav-image-elephant {
   height: auto;
-  width: 50%;
   padding-left: 25%;
   padding-top: 10%;
+  width: 50%;
 }
 
 nav ul li {
@@ -40,6 +40,7 @@ main {
 h1 {
   margin-left: 2.6%;
 }
+
 .section-main-container {
   display: flex;
   justify-content: space-around;
@@ -53,15 +54,15 @@ h1 {
 .section-div-user-welcome {
   background: linear-gradient(to right, #8ED1DC, #E3F4F6);
   display: flex;
-  height: 11%;
-  padding: 2% 0 0 5%;
   font-size: .85em;
+  height: 11%;
   justify-content: space-between;
+  padding: 2% 0 0 5%;
 }
 
 .section-div-user-welcome button {
-  border: 0;
   background: #E3F4F6;
+  border: 0;
   height: 5%;
   width: 5%;
 }
@@ -73,12 +74,12 @@ h1 {
 }
 
 .section-account-summary div {
-  margin-top: 5%;
   background: #fff;
-  width: 30%;
-  padding-left: 2%;
   font-size: .8em;
+  margin-top: 5%;
+  padding-left: 2%;
   text-transform: uppercase;
+  width: 30%;
 }
 
 .section-div-numeric-value {
@@ -87,43 +88,41 @@ h1 {
 
 .section-manage-accounts {
   display: flex;
-  justify-content: space-between;
-  /* margin-top: 5%; */
   height: 13%;
+  justify-content: space-between;
 }
 
 .section-manage-accounts button,
 .section-transactions button {
-  border: none;
-  border-radius: 1.3em;
   background: #1CA3BA;
-  height: 10%;
-  width: 30%;
-  text-transform: uppercase;
+  border-radius: 1.3em;
+  border: none;
   color: white;
   font-size: .8em;
+  height: 10%;
   margin-top: 4%;
+  text-transform: uppercase;
+  width: 30%;
 }
 
 .section-manage-accounts button {
-  padding-top: 1.5%;
-  padding-bottom: 3.5%;
+  padding: 1.5% 0 3.5% 0;
 }
 
 .div-account {
   background: #fff;
   display: flex;
-  width: 100%;
-  margin: 2% 0;
   font-size: 1em;
   height: 11.5%;
+  margin: 2% 0;
+  width: 100%;
 }
 
 .div-account img {
   height: auto;
-  width: 5%;
   margin-left: 2%;
   margin-right: 8%;
+  width: 5%;
 }
 
 .div-account p {
@@ -137,12 +136,11 @@ h1 {
 
 /* RECENT TRANSACTIONS */
 .section-recent-transactions {
-  /* border: 5px solid teal; */
   background: white;
-  padding: 0 2%;
-  width: 40%;
   max-height: 38em;
   overflow: scroll;
+  padding: 0 2%;
+  width: 40%;
 }
 .section-transactions button {
   padding: 1.5% .5%;
@@ -153,15 +151,15 @@ h1 {
 }
 
 .section-transactions-headings p {
-  width: 25%;
   border-bottom: 1px solid #CCCCCC;
-  padding-bottom: 1.5%;
   margin-bottom: 0;
+  padding-bottom: 1.5%;
+  width: 25%;
 }
 
 .section-transactions-detail {
-  display: flex;
   border-bottom: 1px solid #CCCCCC;
+  display: flex;
 }
 
 .section-transactions-detail p {
