@@ -50,7 +50,7 @@ main {
   display: flex;
   height: 3%;
   padding: 2% 0 0 5%;
-  font-size: 1.5em;
+  font-size: 1em;
   justify-content: space-between;
 }
 
@@ -76,6 +76,29 @@ main {
 
 .section-div-numeric-value {
   font-size: 1.5em;
+}
+
+.section-manage-accounts {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5%;
+}
+
+.section-manage-accounts h3  {
+  font-size: 1.2em;
+}
+
+.section-manage-accounts button {
+  border: none;
+  border-radius: 1.3em;
+  background: #1CA3BA;
+  height: 10%;
+  padding: 1%;
+  width: 30%;
+  text-transform: uppercase;
+  color: white;
+  font-size: .8em;
+  margin-top: 3%;
 }
 
 
