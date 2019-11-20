@@ -34,15 +34,17 @@ main {
   background:  #F5F5F5;
   grid-area: main;
 }
+
+h1 {
+  margin-left: 2.3%;
+}
 .section-main-container {
   display: flex;
   justify-content: space-around;
 }
 
 /* USER ACCOUNT INFORMATION */
-.section-user-account-info,
-.section-recent-transactions {
-  /* border: 5px solid orange; */
+.section-user-account-info {
   width: 45%
 }
 
@@ -62,7 +64,8 @@ main {
   width: 5%;
 }
 
-.section-account-summary {
+.section-account-summary,
+.section-transactions {
   display: flex;
   justify-content: space-between;
 }
@@ -85,11 +88,8 @@ main {
   margin-top: 5%;
 }
 
-.section-manage-accounts h3  {
-  font-size: 1.2em;
-}
-
-.section-manage-accounts button {
+.section-manage-accounts button,
+.section-transactions button {
   border: none;
   border-radius: 1.3em;
   background: #1CA3BA;
@@ -103,7 +103,6 @@ main {
 }
 
 .div-account {
-  /* border: 2px solid green; */
   background: #fff;
   display: flex;
   width: 100%;
@@ -130,4 +129,7 @@ main {
 /* RECENT TRANSACTIONS */
 .section-recent-transactions {
   border: 5px solid teal;
+  background: white;
+  padding-left: 2%;
+  width: 40%
 }
