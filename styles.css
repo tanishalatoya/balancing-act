@@ -78,6 +78,7 @@ h1 {
   width: 30%;
   padding-left: 2%;
   font-size: .8em;
+  text-transform: uppercase;
 }
 
 .section-div-numeric-value {
