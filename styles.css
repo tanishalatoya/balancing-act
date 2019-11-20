@@ -1,4 +1,5 @@
 body {
+  font-family: 'Biryani', sans-serif;
   display: grid;
   grid-template-columns: 10% 90%;
   grid-row: 100%;
