@@ -101,6 +101,30 @@ main {
   margin-top: 3%;
 }
 
+.div-account {
+  border: 2px solid green;
+  background: #fff;
+  display: flex;
+  width: 100%;
+  height: 5%;
+  margin: 2% 0;
+  font-size: 1.3em;
+}
+
+.div-account img {
+  height: auto;
+  width: 5%;
+  margin-left: 2%;
+  margin-right: 8%;
+}
+
+.div-account p {
+  width: 45%;
+}
+
+.div-account p:last-of-type {
+  margin-left: 20%;
+}
 
 /* RECENT TRANSACTIONS */
 .section-recent-transactions {
