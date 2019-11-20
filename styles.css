@@ -20,11 +20,12 @@ nav {
 
 nav ul li {
   list-style: none;
+  padding: 10% 0;
 }
 
 .nav-ul-icons {
   height: auto;
-  padding-top: 175%;
+  padding-top: 150%;
   width: 30%;
 }
 
@@ -41,7 +42,7 @@ main {
 /* USER ACCOUNT INFORMATION */
 .section-user-account-info,
 .section-recent-transactions {
-  border: 5px solid orange;
+  /* border: 5px solid orange; */
   width: 45%
 }
 
@@ -102,7 +103,7 @@ main {
 }
 
 .div-account {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   background: #fff;
   display: flex;
   width: 100%;
