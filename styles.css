@@ -1,0 +1,174 @@
+body {
+  font-family: 'Biryani', sans-serif;
+  display: grid;
+  grid-template-columns: 10% 90%;
+  grid-row: 100%;
+  grid-template-areas:
+  "nav main";
+}
+
+/* NAVIGATION AREA */
+nav {
+  grid-area: nav;
+  height: 100vh;
+}
+
+.nav-image-elephant {
+  height: auto;
+  padding-left: 25%;
+  padding-top: 10%;
+  width: 50%;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 12% 0;
+}
+
+.nav-ul-icons {
+  height: auto;
+  padding-top: 150%;
+  width: 30%;
+}
+
+/* MAIN DISPLAY AREA */
+main {
+  background:  #F5F5F5;
+  grid-area: main;
+}
+
+h1 {
+  margin-left: 2.6%;
+}
+
+.section-main-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+/* USER ACCOUNT INFORMATION */
+.section-user-account-info {
+  width: 45%
+}
+
+.section-div-user-welcome {
+  background: linear-gradient(to right, #8ED1DC, #E3F4F6);
+  display: flex;
+  font-size: .85em;
+  height: 11%;
+  justify-content: space-between;
+  padding: 2% 0 0 5%;
+}
+
+.section-div-user-welcome button {
+  background: #E3F4F6;
+  border: 0;
+  height: 5%;
+  width: 5%;
+}
+
+.section-account-summary,
+.section-transactions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-account-summary div {
+  background: #fff;
+  font-size: .8em;
+  margin-top: 5%;
+  padding-left: 2%;
+  text-transform: uppercase;
+  width: 30%;
+}
+
+.section-div-numeric-value {
+  font-size: 1.5em;
+}
+
+.section-manage-accounts {
+  display: flex;
+  height: 13%;
+  justify-content: space-between;
+}
+
+.section-manage-accounts button,
+.section-transactions button {
+  background: #1CA3BA;
+  border-radius: 1.3em;
+  border: none;
+  color: white;
+  font-size: .8em;
+  height: 10%;
+  margin-top: 4%;
+  text-transform: uppercase;
+  width: 30%;
+}
+
+.section-manage-accounts button {
+  padding: 1.5% 0 3.5% 0;
+}
+
+.div-account {
+  background: #fff;
+  display: flex;
+  font-size: 1em;
+  height: 11.5%;
+  margin: 2% 0;
+  width: 100%;
+}
+
+.div-account img {
+  height: auto;
+  margin-left: 2%;
+  margin-right: 8%;
+  width: 5%;
+}
+
+.div-account p {
+  margin-top: 5%;
+  width: 45%;
+}
+
+.div-account p:last-of-type {
+  margin-left: 20%;
+}
+
+/* RECENT TRANSACTIONS */
+.section-recent-transactions {
+  background: white;
+  max-height: 38em;
+  overflow: scroll;
+  padding: 0 2%;
+  width: 40%;
+}
+.section-transactions button {
+  padding: 1.5% .5%;
+}
+.section-transactions-headings {
+  display: flex;
+  font-weight: bold;
+}
+
+.section-transactions-headings p {
+  border-bottom: 1px solid #CCCCCC;
+  margin-bottom: 0;
+  padding-bottom: 1.5%;
+  width: 25%;
+}
+
+.section-transactions-detail {
+  border-bottom: 1px solid #CCCCCC;
+  display: flex;
+}
+
+.section-transactions-detail p {
+  font-size: .8em;
+  width: 25%;
+}
+
+.section-transactions-headings p:nth-child(2),
+.section-transactions-detail p:nth-child(2) {
+  padding-left: 3.2%;
+  width: 35%;
+}
