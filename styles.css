@@ -128,8 +128,35 @@ h1 {
 
 /* RECENT TRANSACTIONS */
 .section-recent-transactions {
-  border: 5px solid teal;
+  /* border: 5px solid teal; */
   background: white;
-  padding-left: 2%;
+  padding: 0 2%;
   width: 40%
+}
+
+.section-transactions-headings {
+  display: flex;
+  font-weight: bold;
+}
+
+.section-transactions-headings p {
+  width: 25%;
+  border-bottom: 1px solid #CCCCCC;
+  padding-bottom: 1.5%;
+}
+
+.section-transactions-detail {
+  display: flex;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.section-transactions-detail p {
+  font-size: .95em;
+  width: 25%;
+}
+
+.section-transactions-headings p:nth-child(2),
+.section-transactions-detail p:nth-child(2) {
+  padding-left: 3.2%;
+  width: 35%;
 }
