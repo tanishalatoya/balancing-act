@@ -28,6 +28,11 @@ nav ul li {
 
 nav ul li img {
   cursor: pointer;
+  margin: auto;
+  margin-left: -80%;
+  padding-left: 83%;
+  padding-right: 15%;
+  width: 100%;
 }
 
 .nav-ul-icons {
@@ -185,4 +190,15 @@ h1 {
 /* HIDE DISPLAY */
 .display-hidden {
   display: none;
+}
+
+/* TOGGLE HIGHLIGH ON SELECTED NAV ICON */
+.left-turquoise-highlight {
+    border-left: .3em solid #1CA3BA;
+    cursor: pointer;
+    margin: auto;
+    margin-left: -80%;
+    padding-left: 75%;
+    padding-right: 15%;
+    width: 100%;
 }
