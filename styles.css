@@ -16,21 +16,25 @@ nav {
 
 .nav-image-elephant {
   height: auto;
-  padding-left: 25%;
+  margin: auto;
   padding-top: 10%;
-  width: 50%;
+  width: 85%;
 }
 
 nav ul li {
-  cursor: pointer;
   list-style: none;
-  padding: 12% 0;
+  padding: 20% 0;
+}
+
+nav ul li img {
+  cursor: pointer;
 }
 
 .nav-ul-icons {
   height: auto;
-  padding-top: 150%;
-  width: 30%;
+  padding-top: 170%;
+  padding-left: 25%;
+  width: 35%;
 }
 
 /* MAIN DISPLAY AREA */
