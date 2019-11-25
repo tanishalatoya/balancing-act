@@ -8,6 +8,8 @@ body {
   "nav main";
 }
 
+/* Put things that share the same white background here */
+
 /* NAVIGATION AREA */
 nav {
   grid-area: nav;
@@ -47,7 +49,8 @@ h1 {
   margin-left: 2.6%;
 }
 
-.section-main-container {
+.section-main-container,
+.section-transactions-display-container {
   display: flex;
   justify-content: space-around;
 }
@@ -180,4 +183,29 @@ h1 {
 .section-transactions-detail p:nth-child(2) {
   padding-left: 3.2%;
   width: 35%;
+}
+
+/* STYLING FOR TRANSACTIONS DISPLAY */
+.transactions-display {
+  background: #F5F5F5;
+}
+.section-all-transactions {
+  width: 40%;
+  overflow: scroll;
+  max-height: 38em;
+  background: white;
+}
+
+.section-new-transaction {
+  background: white;
+  border: 2px solid green;
+  width: 40%;
+}
+
+
+
+
+/* HIDES DISPLAY */
+main {
+  display: none;
 }
