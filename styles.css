@@ -198,7 +198,6 @@ h1 {
 }
 
 .section-view-transactions {
-  /* border: 2px solid red; */
   display: flex;
   justify-content: space-between;
   margin-left: 1.5%;
@@ -206,10 +205,9 @@ h1 {
 }
 
 .div-buttons-transaction-type {
-  width: 50%;
-  /* border: 2px solid yellow; */
   display: flex;
   justify-content: flex-end;
+  width: 50%;
 }
 
 .div-buttons-transaction-type button {
@@ -219,14 +217,26 @@ h1 {
 }
 
 .div-buttons-transaction-type button:not(:first-child) {
-  border: 1px solid #1CA3BA;
   background: white;
+  border: 1px solid #1CA3BA;
   color: #1CA3BA;
 }
 
 .section-all-transactions {
   max-height: 42em;
   width: 45%;
+}
+
+.section-all-transactions .section-transactions-headings p:nth-child(3),
+.section-all-transactions .section-transactions-detail p:nth-child(3) {
+  padding-left: 3%;
+  width: 40%;
+}
+
+time {
+  margin-top:2%;
+  font-size: 0.9em;
+  width: 25%;
 }
 
 .section-new-transaction {
