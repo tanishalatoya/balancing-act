@@ -46,7 +46,9 @@ main {
 }
 
 h1 {
+  font-size: 1.5em;
   margin-left: 2.6%;
+  margin-top: 5%;
 }
 
 .section-main-container,
@@ -104,7 +106,8 @@ h1 {
 }
 
 .section-manage-accounts button,
-.section-transactions button {
+.section-transactions button,
+.div-buttons-transaction-type button {
   background: #1CA3BA;
   border-radius: 1.3em;
   border: none;
@@ -147,12 +150,16 @@ h1 {
 }
 
 /* RECENT TRANSACTIONS */
-.section-recent-transactions {
+.section-recent-transactions,
+.section-all-transactions {
   background: white;
   max-height: 38em;
   overflow: scroll;
   padding: 0 2%;
-  width: 40%;
+}
+
+.section-recent-transactions {
+    width: 40%;
 }
 .section-transactions button {
   padding: 1.5% .5%;
@@ -189,11 +196,37 @@ h1 {
 .transactions-display {
   background: #F5F5F5;
 }
-.section-all-transactions {
-  width: 40%;
-  overflow: scroll;
-  max-height: 38em;
+
+.section-view-transactions {
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5%;
+  width: 50%;
+}
+
+.div-buttons-transaction-type {
+  width: 50%;
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: flex-end;
+}
+
+.div-buttons-transaction-type button {
+  height: 30%;
+  margin: 0 .5%;
+  margin-top: 14%;
+}
+
+.div-buttons-transaction-type button:not(:first-child) {
+  border: 1px solid #1CA3BA;
   background: white;
+  color: #1CA3BA;
+}
+
+.section-all-transactions {
+  max-height: 42em;
+  width: 45%;
 }
 
 .section-new-transaction {
