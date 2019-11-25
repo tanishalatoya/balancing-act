@@ -15,7 +15,7 @@
         <li><img src="./assets/profile.svg" alt="profile icon"></li>
       </ul>
     </nav>
-    <main>
+    <main class="display-hidden">
       <header>
         <h1>Balancing Act</h1>
       </header>
@@ -132,6 +132,149 @@
         </section>
       </section>
     </main>
+    <section class="transactions-display">
+      <section class="section-view-transactions">
+        <h1>Transactions</h1>
+        <div class="div-buttons-transaction-type">
+          <button>All</button>
+          <button>Inflow</button>
+          <button>Outflow</button>
+        </div>
+      </section>
+      <section class="section-transactions-display-container">
+        <section class="section-all-transactions">
+          <div class="section-transactions-headings">
+            <p>Date</p>
+            <p>Account</p>
+            <p>Payee</p>
+            <p>Inflow</p>
+            <p>Outflow</p>
+          </div>
+          <div class="section-transactions-detail">
+            <time>10-25-19</time>
+            <p>Credit Card</p>
+            <p>Target</p>
+            <p>&ndash;</p>
+            <p>&dollar;82.35</p>
+          </div>
+          <div class="section-transactions-detail">
+            <time>10-24-19</time>
+            <p>Credit Card</p>
+            <p>Express</p>
+            <p>&ndash;</p>
+            <p>&dollar;212.24</p>
+          </div>
+          <div class="section-transactions-detail">
+            <time>10-22-19</time>
+            <p>Checking</p>
+            <p>Paycheck</p>
+            <p>&dollar;1,319.12</p>
+            <p>&ndash;</p>
+          </div>
+          <div class="section-transactions-detail">
+            <time>10-21-19</time>
+            <p>Credit Card</p>
+            <p>Trader Joe&apos;s</p>
+            <p>&ndash;</p>
+            <p>&dollar;54.92</p>
+          </div>
+          <div class="section-transactions-detail">
+            <time>10-20-19</time>
+            <p>Credit Card</p>
+            <p>Shell</p>
+            <p>&ndash;</p>
+            <p>&dollar;46.23</p>
+          </div>
+          <div class="section-transactions-detail">
+            <time>10-19-19</time>
+            <p>Savings</p>
+            <p>Rent</p>
+            <p>&dollar;800.00</p>
+            <p>&ndash;</p>
+          </div>
+          <div class="section-transactions-detail">
+            <time>10-19-19</time>
+            <p>Checking</p>
+            <p>Hapa Sushi</p>
+            <p>&ndash;</p>
+            <p>&dollar;13.97</p>
+          </div>
+          <div class="section-transactions-detail">
+            <time>10-18-19</time>
+            <p>Credit Card</p>
+            <p>Pig Train</p>
+            <p>&ndash;</p>
+            <p>&dollar;4.83</p>
+          </div>
+          <div class="section-transactions-detail">
+            <time>10-18-19</time>
+            <p>Checking</p>
+            <p>RTD</p>
+            <p>&ndash;</p>
+            <p>&dollar;6.00</p>
+          </div>
+          <div class="section-transactions-detail">
+            <time>10-24-19</time>
+            <p>Checking</p>
+            <p>Express</p>
+            <p>&ndash;</p>
+            <p>&dollar;6.00</p>
+          </div>
+          <div class="section-transactions-detail">
+            <time>10-24-19</time>
+            <p>Checking</p>
+            <p>Express</p>
+            <p>&ndash;</p>
+            <p>&dollar;6.00</p>
+          </div>
+          <div class="section-transactions-detail">
+            <time>10-24-19</time>
+            <p>Checking</p>
+            <p>Express</p>
+            <p>&ndash;</p>
+            <p>&dollar;6.00</p>
+          </div>
+          <div class="section-transactions-detail">
+            <time>10-24-19</time>
+            <p>Checking</p>
+            <p>Express</p>
+            <p>&ndash;</p>
+            <p>&dollar;6.00</p>
+          </div>
+          <div class="section-transactions-detail">
+            <time>10-24-19</time>
+            <p>Checking</p>
+            <p>Express</p>
+            <p>&ndash;</p>
+            <p>&dollar;6.00</p>
+          </div>
+        </section>
+        <section class="section-new-transaction">
+          <h2>New Transaction</h2>
+          <form>
+            <label>Type of transaction:</label>
+            <select>
+              <option value="Expense">Expense</option>
+            </select>
+            <label>Category:</label>
+            <select>
+              <option value="-Select One-">&ndash;Select One&ndash;</option>
+            </select>
+            <label>Account from:</label>
+            <select>
+              <option value="-Select One-">&ndash;Select One&ndash;</option>
+            </select>
+            <label>Payee:</label>
+            <input type="text">
+            <label>Outflow:</label>
+            <input type="text">
+            <label>Inflow:</label>
+            <input type="text">
+            <button>Log Expense</button>
+          </form>
+        </section>
+      </section>
+    </section>
     <script src="./main.js"></script>
   </body>
 </html>
