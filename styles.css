@@ -121,7 +121,8 @@ h1 {
 
 .section-manage-accounts button,
 .section-transactions button,
-.div-buttons-transaction-type button {
+.div-buttons-transaction-type button,
+.section-new-transaction button {
   background: #1CA3BA;
   border-radius: 1.3em;
   border: none;
@@ -255,7 +256,6 @@ time {
 
 .section-new-transaction {
   background: white;
-  border: 2px solid green;
   width: 40%;
 }
 
@@ -284,13 +284,20 @@ input, select {
   font-size: 1em;
   margin-bottom: 3.5%;
   margin-right: -50%;
-  outline: red;
   padding: .5em;
 }
 
 input {
   color: black;
   width: 78.5%;
+}
+
+.section-new-transaction button {
+  font-size: 1.1em;
+  margin-top: 8%;
+  padding: 1.2%;
+  text-transform: none;
+  width: 40%;
 }
 
 
