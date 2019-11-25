@@ -303,6 +303,12 @@ input {
   width: 40%;
 }
 
+/* ADD HIGHLIGHT TO SELECTED ICON TO CHANGE DISPLAY */
+.left-teal-highlight {
+  border-left: 4px solid #1CA3BA;
+  border-radius: 8%;
+}
+
 /* HIDES DISPLAY */
 .display-hidden {
   display: none;
