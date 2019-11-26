@@ -150,7 +150,7 @@ main h1 {
 .div-account {
   background: #fff;
   display: flex;
-  font-size: 1em;
+  font-size: 1.1em;
   height: 11.5%;
   margin: 2% 0;
   width: 100%;
@@ -168,8 +168,13 @@ main h1 {
   width: 45%;
 }
 
+.div-account p,
+.div-account img {
+  margin-left: 5%;
+}
+
 .div-account p:last-of-type {
-  margin-left: 20%;
+  margin-left: 22%;
 }
 
 /* RECENT TRANSACTIONS */
