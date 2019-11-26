@@ -68,6 +68,10 @@ h1 {
   margin-top: 5%;
 }
 
+main h1 {
+  margin-top: 2.5%;
+}
+
 .section-main-container,
 .section-transactions-display-container {
   display: flex;
