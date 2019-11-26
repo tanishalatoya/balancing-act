@@ -1,12 +1,12 @@
 var closeBtn = document.querySelector('#close-btn');
-var navigation = document.querySelector('.nav-ul-icons')
+var navigation = document.querySelector('.nav-ul-icons');
+  var userWelcomeSection = document.querySelector('.section-div-user-welcome');
 
 closeBtn.addEventListener('click', closeUserWelcome);
 navigation.addEventListener('click', changeDisplay);
 
 function closeUserWelcome() {
-  var userWelcomeSection = document.querySelector('.section-div-user-welcome');
-
+  
   userWelcomeSection.classList.add('display-hidden');
 }
 
@@ -32,6 +32,7 @@ function changeDisplay(event) {
     mainDisplay.classList.remove('display-hidden');
     // profile.classList.add('display-hidden');
     transactionsDisplay.classList.add('display-hidden');
+    userWelcomeSection.classList.remove('display-hidden');
 
   } else {
     profile.classList.add('left-teal-highlight');
