@@ -10,12 +10,12 @@
     <nav>
       <img class="nav-image-elephant" src="./assets/elephant.svg" alt="elephant on a blue ball">
       <ul class="nav-ul-icons">
-        <li><img src="./assets/dashboard.svg" alt="clipboard icon"></li>
-        <li><img src="./assets/transactions.svg" alt="wallet with card sticking out"></li>
-        <li><img src="./assets/profile.svg" alt="profile icon"></li>
+        <li><img class="left-teal-highlight" id="dashboard" src="./assets/dashboard.svg" alt="clipboard icon"></li>
+        <li><img id="transactions" src="./assets/transactions.svg" alt="wallet with card sticking out"></li>
+        <li><img id="profile" src="./assets/profile.svg" alt="profile icon"></li>
       </ul>
     </nav>
-    <main class="display-hidden">
+    <main>
       <header>
         <h1>Balancing Act</h1>
       </header>
@@ -23,7 +23,7 @@
         <section class="section-user-account-info">
           <div class="section-div-user-welcome">
             <h2>Welcome Oscar!</h2>
-            <button><img src="./assets/close.svg" alt="close icon"></button>
+            <button id="close-btn"><img src="./assets/close.svg" alt="close icon"></button>
           </div>
           <section class="section-account-summary">
             <div>
@@ -132,7 +132,7 @@
         </section>
       </section>
     </main>
-    <section class="transactions-display">
+    <section class="transactions-display display-hidden">
       <section class="section-view-transactions">
         <h1>Transactions</h1>
         <div class="div-buttons-transaction-type">
