@@ -44,14 +44,14 @@ nav ul li {
 nav ul li img {
   cursor: pointer;
   border: 4px solid white;
-  padding: 60% 200%;
-  margin-left: -470%;
+  padding: 60% 250%;
+  margin-left: -570%;
 }
 
 .nav-ul-icons {
   height: auto;
   padding-top: 190%;
-  width: 10%;
+  width: 8%;
 }
 
 /* MAIN DISPLAY AREA */
