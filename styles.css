@@ -9,8 +9,13 @@ body {
 }
 
 /* CONTAINERS WITH WHITE BACKGROUND */
-
-
+.section-account-summary div,
+.div-account,
+.section-recent-transactions,
+.section-all-transactions,
+.section-new-transaction {
+  background: #fff;
+}
 
 /* BOX SHADOW FOR ELEMENTS SITTING ON GRAY BACKGROUND */
 .section-div-user-welcome,
@@ -55,8 +60,12 @@ nav ul li img {
 }
 
 /* MAIN DISPLAY AREA */
+
+main,
+.transactions-display {
+    background:  #F5F5F5;
+}
 main {
-  background:  #F5F5F5;
   grid-area: main;
 }
 
@@ -105,7 +114,6 @@ main h1 {
 }
 
 .section-account-summary div {
-  background: #fff;
   font-size: .8em;
   margin-top: 5%;
   padding-left: 2%;
@@ -148,7 +156,6 @@ main h1 {
 }
 
 .div-account {
-  background: #fff;
   display: flex;
   font-size: 1.1em;
   height: 11.5%;
@@ -180,7 +187,6 @@ main h1 {
 /* RECENT TRANSACTIONS */
 .section-recent-transactions,
 .section-all-transactions {
-  background: white;
   max-height: 38em;
   overflow: scroll;
   padding: 0 2%;
@@ -221,10 +227,6 @@ main h1 {
 }
 
 /* STYLING FOR TRANSACTIONS DISPLAY */
-.transactions-display {
-  background: #F5F5F5;
-}
-
 .section-view-transactions {
   display: flex;
   justify-content: space-between;
@@ -268,7 +270,6 @@ time {
 }
 
 .section-new-transaction {
-  background: white;
   width: 40%;
 }
 
@@ -305,8 +306,8 @@ input {
   width: 78.5%;
 }
 
-select option {
-  height: 50%;
+select {
+  font-size: 1.2em;
 }
 
 .section-new-transaction button {
