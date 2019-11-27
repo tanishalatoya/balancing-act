@@ -222,6 +222,14 @@ main h1 {
   width: 25%;
 }
 
+.section-recent-transactions div time,
+.section-all-transactions div time {
+  margin-top:2%;
+  font-size: 0.8em;
+  width: 25%;
+}
+
+
 .section-transactions-detail {
   border-bottom: 1px solid #CCCCCC;
   display: flex;
@@ -275,10 +283,8 @@ main h1 {
   width: 40%;
 }
 
-time {
-  margin-top:2%;
+.section-all-transactions div time {
   font-size: 0.9em;
-  width: 25%;
 }
 
 .section-new-transaction {
