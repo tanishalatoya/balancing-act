@@ -53,6 +53,10 @@ nav ul li img {
   margin-left: -570%;
 }
 
+nav ul li img:hover {
+  transform: scale(.95);
+}
+
 .nav-ul-icons {
   height: auto;
   padding-top: 190%;
@@ -149,6 +153,14 @@ main h1 {
   margin-top: 4%;
   text-transform: uppercase;
   width: 30%;
+}
+
+.section-manage-accounts button:hover,
+.section-transactions button:hover,
+.div-buttons-transaction-type button:hover,
+.section-new-transaction button:hover,
+.section-manage-accounts button:hover {
+  transform: scale(.95);
 }
 
 .section-manage-accounts button {
