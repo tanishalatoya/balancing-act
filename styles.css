@@ -272,7 +272,8 @@ main h1 {
   color: #1CA3BA;
 }
 
-.section-all-transactions {
+.section-all-transactions,
+.section-new-transaction {
   max-height: 42em;
   width: 45%;
 }
@@ -334,6 +335,12 @@ select {
   padding: 1.2%;
   text-transform: none;
   width: 40%;
+}
+
+.section-new-transaction p {
+  background: #E3FFD4;
+  padding: 2% 5%;
+  margin-top: 5.5%;
 }
 
 /* ADD HIGHLIGHT TO SELECTED ICON TO CHANGE DISPLAY */
