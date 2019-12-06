@@ -13,7 +13,8 @@ body {
 .div-account,
 .section-recent-transactions,
 .section-all-transactions,
-.section-new-transaction {
+.section-new-transaction,
+.section-user-profile-information {
   background: #fff;
 }
 
@@ -66,7 +67,8 @@ nav ul li img:hover {
 /* MAIN DISPLAY AREA */
 
 main,
-.transactions-display {
+.transactions-display,
+.section-profile-display {
     background:  #F5F5F5;
 }
 main {
@@ -335,6 +337,34 @@ select {
   text-transform: none;
   width: 40%;
 }
+
+/* STYLING FOR PROFILE DISPLAY */
+.section-page-headers {
+  border: 2px solid green;
+  display: flex;
+}
+
+.section-page-headers div {
+  border: 2px solid red;
+  width: 50%;
+}
+
+.section-user-profile-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 1.5%;
+}
+
+.section-user-profile-information {
+  border: 2px solid orange;
+  width: 33 %;
+}
+
+.section-user-accounts-status {
+  border: 2px solid blue;
+  width: 57%;
+}
+
 
 /* ADD HIGHLIGHT TO SELECTED ICON TO CHANGE DISPLAY */
 .left-teal-highlight {
