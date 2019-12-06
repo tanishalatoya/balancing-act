@@ -24,7 +24,8 @@ body {
 .div-account,
 .section-recent-transactions,
 .section-all-transactions,
-.section-new-transaction {
+.section-new-transaction,
+.section-user-profile-information {
   box-shadow: .2em .2em rgba(0,0,0,0.05);
 }
 
@@ -144,12 +145,14 @@ main h1 {
 .section-manage-accounts button,
 .section-transactions button,
 .div-buttons-transaction-type button,
-.section-new-transaction button {
+.section-new-transaction button,
+.btn-edit-info {
   background: #1CA3BA;
   border-radius: 1.3em;
   border: none;
   color: white;
   cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
   font-size: .8em;
   height: 10%;
   margin-top: 4%;
@@ -161,7 +164,8 @@ main h1 {
 .section-transactions button:hover,
 .div-buttons-transaction-type button:hover,
 .section-new-transaction button:hover,
-.section-manage-accounts button:hover {
+.section-manage-accounts button:hover,
+.btn-edit-info:hover {
   transform: scale(.95);
 }
 
@@ -340,14 +344,23 @@ select {
 
 /* STYLING FOR PROFILE DISPLAY */
 .section-page-headers {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   display: flex;
+  font-size: 1.2em;
+  justify-content: space-between;
+  margin-left: 1.2%;
 }
 
-.section-page-headers div {
-  border: 2px solid red;
-  width: 50%;
+.section-page-headers div:first-child,
+.section-user-profile-information {
+  width: 33%;
 }
+
+.section-page-headers div:last-child {
+  background: yellow;
+  width: 57%;
+}
+
 
 .section-user-profile-container {
   display: flex;
@@ -356,8 +369,26 @@ select {
 }
 
 .section-user-profile-information {
-  border: 2px solid orange;
-  width: 33 %;
+  height: 14em;
+  margin-top: 2%;
+  padding-left: 2%;
+}
+
+.section-user-profile-information h2 {
+  margin-bottom: -1%;
+  text-align: left;
+}
+
+.section-user-profile-information p {
+  font-size: .9em;
+  margin-bottom: .5%;
+  margin-top: .5%;
+}
+
+.btn-edit-info {
+  height: 15%;
+  margin-left: 60%;
+  padding: 1% 0 .5%;
 }
 
 .section-user-accounts-status {
