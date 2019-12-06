@@ -409,7 +409,9 @@ select {
 .section-user-accounts-status div p {
   width: 20%;
 }
-
+.section-user-accounts-status div p span {
+  color: green;
+}
 
 /* ADD HIGHLIGHT TO SELECTED ICON TO CHANGE DISPLAY */
 .left-teal-highlight {
