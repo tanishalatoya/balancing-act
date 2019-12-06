@@ -14,7 +14,8 @@ body {
 .section-recent-transactions,
 .section-all-transactions,
 .section-new-transaction,
-.section-user-profile-information {
+.section-user-profile-information,
+.section-user-accounts-status div {
   background: #fff;
 }
 
@@ -25,7 +26,8 @@ body {
 .section-recent-transactions,
 .section-all-transactions,
 .section-new-transaction,
-.section-user-profile-information {
+.section-user-profile-information,
+.section-user-accounts-status div {
   box-shadow: .2em .2em rgba(0,0,0,0.05);
 }
 
@@ -361,7 +363,6 @@ select {
   width: 57%;
 }
 
-
 .section-user-profile-container {
   display: flex;
   justify-content: space-between;
@@ -394,6 +395,14 @@ select {
 .section-user-accounts-status {
   border: 2px solid blue;
   width: 57%;
+}
+
+.section-user-accounts-status div {
+  display: flex;
+  font-size: .9em;
+  justify-content: space-between;
+  height: 10%;
+  margin: 2% 0;
 }
 
 
